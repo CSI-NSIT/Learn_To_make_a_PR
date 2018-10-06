@@ -2,15 +2,15 @@
 
 ## What is PR?
 
-PR stands for Pull Request. By making a PR, you are basically notifying the repository maintainers that you have worked on a piece of code that you want to add the project and the maintainers can then review it and add it to the project.
+PR stands for Pull Request. By making a PR, you are basically notifying the repository maintainers that you have worked on a piece of code that you want to add to the project and the maintainers can then review it and add it to the project.
 
 Since you cannot make the changes yourself, you are **Requesting** them to **Pull** the changes since only they have the priveleges to do so.
 
 ``` 
-Congratulations You now know the magic that runs more than half of open source projects 
+Congratulations You now know the magic that runs the majority of open source projects 
 ```
 
-## But wait what project?? You mentioned repository, maintainer. Whats all that????
+## But wait, what project?? You mentioned repository, maintainer. What's all that????
 
 **Repository** or **Repo** is a storage space/directory for your projects. So, On Github Projects have their own repository which curates the entire codebase and adds many functionalities like addressing issues in code, managing PR's, looking into different branches.
 
@@ -22,7 +22,7 @@ Open Source is by community and for community. You will find amazing set of peop
 
 # Make Your First Pull Request
 
-1. Create Github account. It's free!!! and it's really popular, many organisations rely on Github for their repositories.
+1. Create Github account. It's free!!! and it's really popular, many organisations rely on Github for maintaining their repositories.
 2. Fork this repository
 
    On top right of this page, You will find a Fork button. Press it. If asked where to fork to, choose your user ( @ "your-username" )
@@ -48,7 +48,7 @@ This will create the new branch with whatever you wrote inplace of *new-branch-n
 
 6. In Directory named 'students' add your profile page
 
-   Don't be scared!!! It's not much.
+   Don't be scared!!! It's not difficult.
    Create a new text file with name as *your-name.txt*
 
    ```In case this filename already exists, change yours a little```
@@ -62,12 +62,12 @@ This will create the new branch with whatever you wrote inplace of *new-branch-n
 git add -A
 ```
 
-(In case you do not understand what this is!! Don't worry we will teach later)
+(In case you do not understand what this is!! Don't worry we will teach that later)
 
 8. Commit this
 
 ```
-git commit -sm "Added profile page for <yourname here"
+git commit -m "Added profile page for <yourname here"
 ```
 
 9. Push this to your remote forked repo in your account
@@ -76,11 +76,11 @@ git commit -sm "Added profile page for <yourname here"
 git push origin the-branch-name-you-wrote-above
 ```
 
-**Note: In case you forgot branch-name, in terminal write
+**Note: In case you forgot branch-name, in terminal (the command line) write
 ```
 git branch -v
 ```
-you can see your branch name with a * on left of it
+you can see your branch name with a * to the left of it
 
 As per your git setup, it might ask for your username and password, provide it.
 
