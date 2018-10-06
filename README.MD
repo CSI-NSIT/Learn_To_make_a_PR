@@ -73,8 +73,14 @@ git commit -sm "Added profile page for <yourname here"
 9. Push this to your remote forked repo in your account
 
 ```
-git push origin master
+git push origin the-branch-name-you-wrote-above
 ```
+
+**Note: In case you forgot branch-name, in terminal write
+```
+git branch -v
+```
+you can see your branch name with a * on left of it
 
 As per your git setup, it might ask for your username and password, provide it.
 
